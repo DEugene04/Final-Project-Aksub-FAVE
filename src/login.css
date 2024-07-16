@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+hr{
+    width: 10vw;
+    margin-bottom: 2vw;
+}
+
+body{
+    /* overflow-y: hidden; */
+}
+
+.container{
+    width: 100vw;
+    padding: 2vw 3vw;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.redirect__home{
+    position: absolute;
+}
+
+.redirect__home a{
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.redirect__home:hover a{
+    color: darkblue;
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+}
+
+input{
+    width: 30vw;
+}
+
+.form__container{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__button{
+    border: 1px solid darkblue;
+    color: darkblue;
+    margin-top: 2vw;
+    margin-bottom: .5vw;
+    width: 100%;
+    transition: all 0.5s ease-in;
+}
+
+.login__button:hover{
+    background-color: darkblue;
+    color: white;
+}
+
+.image__container img{
+    height: 90vh;
+    width: 50vw;
+    object-fit: cover;
+    border-radius: 3vw;
+}
+
+

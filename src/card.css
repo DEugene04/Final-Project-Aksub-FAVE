@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter";
+  }
+  
+  .card__container {
+    padding: 1rem;
+    background-color: white;
+    box-shadow: .5vw .5vw rgba(0, 0, 0, 0.13);
+    border-radius: 1.5rem;
+    gap: .5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .recommended__card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  .card__container img {
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card__title {
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: fit-content;
+  }
+  
+  .card__review {
+    color: gray;
+    margin-top: 0.25rem;
+    margin-bottom: 0.5rem;
+    width: fit-content;
+  }
+  
+  .card__review-container {
+    margin-bottom: .5vw;
+  }
+
+  .card__price-container{
+    width: fit-content;
+  }
+  
+  .card__purchase-info {
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+  }
+  
+  .card__counter {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    font-weight: 500;
+  }
+  
+  .card__counter button {
+    border-radius: 50%;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    line-height: 100%;
+    cursor: pointer;
+    transition: 200ms;
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .card__counter button:hover {
+    background-color: rgb(84, 84, 84);
+  }
+  
+  .card__price {
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .admin__buttons{
+    display: flex;
+
+  }

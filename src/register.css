@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.register__container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    z-index: 2;
+}
+
+.register__container img{
+    height: 40vw;
+    width: 100%;
+}
+
+.register__right-form{
+    background-color: white;
+    position: absolute;
+    flex: 1;
+    top: 0;
+    right: 14vw;
+    height: 40vw;
+    width: 40vw;
+    padding: 0vw 4vw;
+    z-index: 3;
+}
+
+.register__title{
+    display: flex;
+    gap: 1vw;
+}
+
+.register__title h1{
+    font-size: 2vw;
+}
+
+.register__title-DnFOutfit{
+    color: orangered;
+}
+
+.register__inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.register__inputs label{
+    margin-top: .5vw;
+}
+
+.register__inputs input{
+    padding: .8vw 1vw;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid rgba(127, 127, 255, 0.445);
+}
+
+.register__btn{
+    background-color: transparent;
+    border: 1px solid orangered;
+    color: orangered;
+    width: 10vw;
+    margin-top: 1vw;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+.register__btn:hover{
+    color: white;
+    background-color: orangered;
+    border: 1px solid orangered;
+}
+
+.login__redirect{
+    display: flex;
+    gap: .4vw;
+    margin-top: .5vw;
+}
+
+.login__redirect p{
+    text-decoration: underline;
+    text-decoration-color: orangered;
+    color: orangered;
+}
+
+.login__redirect b{
+    color: orangered;
+}
+
+.error-message{
+    color: orangered;
+    font-size: 1vw;
+    margin-top: 0;
+}

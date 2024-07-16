@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cart__container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+
+.table__container{
+    padding: 3vw;
+}
+
+.myCart__title{
+    color: orangered;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0 5vw;
+}
+
+thead{
+    justify-content: center;
+}
+
+tbody{
+    justify-content: center;
+}
+
+th{
+    font-weight: 300;
+}
+
+td, th{
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cart__information img{
+    width: 8vw;
+    height: 8vw;
+    object-fit: contain;
+}
+
+.cart__information h2{
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.cart__quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cart__payments{
+    background-color: rgb(224, 97, 51);
+    padding: 6vw 3vw;
+}
+
+hr{
+    width: 20vw;
+    height: .4vw;
+    background-color: antiquewhite;
+    border-radius: 1vw;
+    border: none;
+}
+
+.cart__total{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    font-family: "Montserrat", sans-serif;
+}
+
+.cart__total h2{
+    font-weight: 300;
+    color: white;
+}
+
+.cart__total h1{
+    font-weight: 500;
+    font-size: 2.5vw;
+    color: white;
+}
+
+.cart__payments h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 1vw;
+    color: white;
+}
+
+.checkout__button{
+    border: 1px solid white;
+    border-radius: 3vw;
+    margin-top: 5vw;
+}
+
+.hidden{
+    display: none;
+}

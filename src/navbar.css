@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar__container{
+    position: absolute;
+    top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.671), rgba(255, 255, 0, 0));
+
+}
+
+.navbar__wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100vw;
+    padding: 1vw 1vw;
+}
+
+.navbar__left{
+    font-size: 2vw;
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+}
+
+.navbar__right{
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    padding: 0 0 0 15vw;
+}
+
+.navbar__left h5, .navbar__middle h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.navbar__middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register__button{
+    background-color: transparent;
+    border: 1px solid white;
+    margin: 0;
+    color: white;
+}
+
+.login__button{
+    color: black;
+    margin: 0;
+    border: none;
+    outline: none;
+}

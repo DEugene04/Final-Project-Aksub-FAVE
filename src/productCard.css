@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grid__container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.product__cards{
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1vw 1vw;
+    font-family: "Montserrat", sans-serif;
+}
+
+.recomended__title h3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.recomended__title h5{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.recomended__title h4{
+    text-decoration: underline;
+}
+
+.product__cards img{
+    height: 15vw;
+    width: auto;
+    object-fit: contain;
+}
+
+.product__texts{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+.product__information{
+    font-family: "Montserrat", sans-serif;
+    margin-left: 2vw;
+}
+
+.product__information h4{
+    font-weight: 400;
+}
+
+.scroll__container{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.admin__buttons{
+    margin-left: 2vw;
+    margin-top: .8vw;
+}
+
+.edit__button{
+    border: 1px solid orange;
+    margin-right: 1.5vw;
+    padding: .5vw 1vw;
+}
+
+.delete__button{
+    border: 1px solid yellow;
+    padding: .5vw 1vw;
+}

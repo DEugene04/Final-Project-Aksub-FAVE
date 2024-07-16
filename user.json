@@ -1,0 +1,68 @@
+{
+  "user": [
+    {
+      "id": "1e16",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "phoneNumber": "895357913223",
+      "password": "admin",
+      "cfmPassword": "admin"
+    },
+    {
+      "id": "4978",
+      "username": "thefatbros",
+      "email": "fatbros@gmail.com",
+      "phoneNumber": "1234584844",
+      "password": "fatbros",
+      "cfmPassword": "fatbros"
+    },
+    {
+      "id": "78f9",
+      "username": "Daven",
+      "email": "wijayamusikal@gmail.com",
+      "phoneNumber": "123456787",
+      "password": "Davenpro",
+      "cfmPassword": "Davenpro"
+    },
+    {
+      "id": "9ab7",
+      "username": "Daven",
+      "email": "wijayamusikal@gmail.com",
+      "phoneNumber": "1234567899",
+      "password": "Davepro",
+      "cfmPassword": "Davepro"
+    },
+    {
+      "id": "b352",
+      "username": "Daven",
+      "email": "wijayamusikal@gmail.com",
+      "phoneNumber": "123456789",
+      "password": "haydenwijaya",
+      "cfmPassword": "haydenwijaya"
+    },
+    {
+      "id": "7898",
+      "username": "Daven",
+      "email": "wijayamusikal@gmail.com",
+      "phoneNumber": "123456789",
+      "password": "Rokepro",
+      "cfmPassword": "Rokepro"
+    },
+    {
+      "id": "1e46",
+      "username": "BangMessi",
+      "email": "admin@gmail.com",
+      "phoneNumber": "123456789",
+      "password": "adminpro",
+      "cfmPassword": "adminpro"
+    },
+    {
+      "id": "1ff9",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "phoneNumber": "123456789",
+      "password": "adminpro",
+      "cfmPassword": "adminpro"
+    }
+  ]
+}

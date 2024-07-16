@@ -1,0 +1,34 @@
+{
+  "cart": [
+    {
+      "id": "b700",
+      "title": "Tester tshirt",
+      "price": "99",
+      "rating": {
+        "rate": "4.5"
+      },
+      "reviewers": "200",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg"
+    },
+    {
+      "id": "821d",
+      "title": "Short Sleeve ",
+      "price": "200",
+      "rating": {
+        "rate": "4.9"
+      },
+      "reviewers": "400",
+      "image": "https://fakestoreapi.com/img/51eg55uWmdL._AC_UX679_.jpg"
+    },
+    {
+      "id": "f421",
+      "title": "Tester 2",
+      "price": "200",
+      "rating": {
+        "rate": "4.5"
+      },
+      "reviewers": "130",
+      "image": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg"
+    }
+  ]
+}
